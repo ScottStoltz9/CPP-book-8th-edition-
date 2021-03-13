@@ -1,0 +1,19 @@
+/*
+ Write a program that produces the following output:
+CCCCCCCCC ++ ++
+CC ++ ++
+CC ++++++++++++++ +++++++++++++++ CC ++++++++++++++ +++++++++++++++ CC ++ ++ CCCCCCCCC ++ ++
+*/
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+    cout << "CCCCCCCCC \t\t ++ \t\t\t\t ++" << endl;
+    cout << "CC \t\t\t\t ++ \t\t\t\t ++" << endl;
+    cout << "CC \t\t\t ++++++++++++++ \t ++++++++++++++" << endl;
+    cout << "CC \t\t\t ++++++++++++++ \t ++++++++++++++" << endl;
+    cout << "CC \t\t\t\t ++ \t\t\t\t ++" << endl;
+    cout << "CCCCCCCCC \t\t ++ \t\t\t\t ++" << endl;
+}
