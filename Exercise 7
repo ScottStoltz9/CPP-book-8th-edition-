@@ -1,0 +1,23 @@
+/*
+ Write a program that prompts the user to input a decimal number and
+ outputs the number rounded to the nearest integer.
+ */
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    double num;
+    int rNum;
+    
+    cout << "Enter a number " << endl;
+    cin >> num;
+    
+    rNum = num + 0.5;
+    cout << "Your number rounded to the the nearest interger is: " << rNum << endl;
+    
+    return 0;
+}
