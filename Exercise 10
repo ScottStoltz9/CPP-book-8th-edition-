@@ -1,0 +1,23 @@
+/*
+ Write a program that prompts the user to input five decimal numbers. The program should then add the five decimal numbers, convert the sum to the nearest integer, and print the result.
+ */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double num1, num2, num3, num4, num5;
+    double sum;
+    
+    cout << "Enter five number decimal numbers " << endl;
+    cin >> num1 >> num2 >> num3 >> num4 >> num5;
+    
+    sum = num1 + num2 + num3 + num4 + num5;
+    
+    cout << "The sum is: " << static_cast<int>(sum) << endl;
+
+    return 0;
+}
+
